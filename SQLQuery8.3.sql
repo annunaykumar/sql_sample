@@ -1,8 +1,11 @@
-SELECT 
-    COUNT(*)
+
+
+	SELECT 
+    (emp_no)
 FROM 
     Works_on
-WHERE
-    project_no = 'p1'
-	GROUP BY project_no
-HAVING COUNT(emp_no) < 10000 ;
+	WHERE (project_no) = 'p1' AND emp_no < 10000;
+	
+    
+
+	
